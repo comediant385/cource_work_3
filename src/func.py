@@ -30,9 +30,7 @@ def print_user_operations(user_operations):
     """Функция, выводящая пять успешных операций в нужном формате"""
     for user_operation in user_operations:
         user_operation.hide_info_where_from()
-    for user_operation in user_operations:
         user_operation.hide_info_to()
-    for user_operation in user_operations:
         user_operation.format_date()
-    for user_operation in user_operations:
         print(user_operation.print_info())
+
